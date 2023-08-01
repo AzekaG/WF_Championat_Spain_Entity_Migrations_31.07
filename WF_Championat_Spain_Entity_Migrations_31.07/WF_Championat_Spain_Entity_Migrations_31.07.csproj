@@ -63,6 +63,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202308010627392_InitialCreate.cs" />
+    <Compile Include="Migrations\202308010627392_InitialCreate.designer.cs">
+      <DependentUpon>202308010627392_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202308011206403_Add_Player_Age.cs" />
+    <Compile Include="Migrations\202308011206403_Add_Player_Age.designer.cs">
+      <DependentUpon>202308011206403_Add_Player_Age.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202308011210395_delete_Player_Age.cs" />
+    <Compile Include="Migrations\202308011210395_delete_Player_Age.designer.cs">
+      <DependentUpon>202308011210395_delete_Player_Age.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Team.cs" />
     <Compile Include="Model\Country.cs" />
     <Compile Include="Model\MatchDbContext.cs" />
@@ -74,6 +87,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308010627392_InitialCreate.resx">
+      <DependentUpon>202308010627392_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308011206403_Add_Player_Age.resx">
+      <DependentUpon>202308011206403_Add_Player_Age.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308011210395_delete_Player_Age.resx">
+      <DependentUpon>202308011210395_delete_Player_Age.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -41,6 +41,7 @@ namespace WF_Championat_Spain_Entity_Migrations_31._07
         public void IniMatches()
         {
             listBoxMatches.DataSource = null;
+            
             listBoxMatches.DataSource = controller.MatchesIni(listBoxTeams.SelectedItem.ToString());
    }
 
@@ -60,6 +61,7 @@ namespace WF_Championat_Spain_Entity_Migrations_31._07
             listBoxPlayers.DataSource = null;
             controller = new Controller();
             listBoxPlayers.DataSource = controller.PlayersIni(listBoxTeams.SelectedItem.ToString());
+            
             IniMatches();
         }
 
@@ -82,6 +84,7 @@ namespace WF_Championat_Spain_Entity_Migrations_31._07
             obj = (Matches)listBoxMatches.SelectedItem;
             int index = obj.Id;
             iniGoals(index);
+            
 
         }
 

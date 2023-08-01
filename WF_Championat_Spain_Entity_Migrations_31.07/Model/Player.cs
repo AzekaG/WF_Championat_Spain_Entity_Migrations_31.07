@@ -13,6 +13,7 @@ namespace WF_Championat_Spain_Entity_Migrations_31._07.Model
         public string Surname { get; set; }
         public int Number { get; set; }
 
+       
 
         public virtual Team Team { get; set; }
         public virtual Position Position { get; set; }
